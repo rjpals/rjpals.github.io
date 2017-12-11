@@ -28,6 +28,11 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+li {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -40,4 +45,15 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+img {
+    image-orientation: from-image;
+	width: 90%;
+	display: block;  
+	margin-left: auto; 
+	margin-right: auto; 
+}
+div.feed {
+	max-width: 1500px;
+	min-width: 500px;
 }
