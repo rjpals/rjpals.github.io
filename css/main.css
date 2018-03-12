@@ -53,6 +53,10 @@ img {
 	margin-left: auto; 
 	margin-right: auto; 
 }
+img.headshot {
+	width: 300px;
+	height: 300px;
+}
 div.feed {
 	max-width: 1500px;
 	min-width: 500px;
