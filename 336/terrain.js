@@ -147,7 +147,7 @@ function genVertices() {
 
 }
 function init() {
-  simplex = new SimplexNoise('seed');
+  simplex = new SimplexNoise(Math.random());
   genVertices();
   render();
   animationLoop();
